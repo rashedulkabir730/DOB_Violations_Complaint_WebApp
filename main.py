@@ -35,6 +35,17 @@ complaints['full_add'] = complaints['full_add'].astype(str)
 address_list = violations['full_add'].unique().tolist()
 selected_address = st.sidebar.selectbox("Select Building Address:", [""] + address_list)
 
+st.sidebar.markdown(
+    """
+    More details [on the README](https://github.com/rashedulkabir730/DOB_Violations_Complaint_WebApp/blob/main/README.md).
+
+    Source code available [on GitHub](https://github.com/rashedulkabir730/DOB_Violations_Complaint_WebApp/tree/main).
+
+    Made by [Rashedul Kabir](https://www.linkedin.com/in/rashedul-kabir/).
+    """
+)
+
+
 def open_vio(addy):
     
     grouped_sum = addy.groupby(['Violation Status', 'Device Type'])['Violation Number'].count().reset_index()
