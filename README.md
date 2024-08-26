@@ -2,6 +2,12 @@
 
 View the Dashboard here: [dobviolationscomplaints.streamlit.app](dobviolationscomplaints.streamlit.app)
 
+
+
+https://github.com/user-attachments/assets/65045758-d42e-4e97-9172-a039760f10cd
+
+
+
 This dashboard displays the violations and complaints of buildings in the NYC area issued by the Department of Buildings.
 
 ## Overview:
